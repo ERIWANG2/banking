@@ -1,0 +1,12 @@
+  spring:
+    datasource:
+      url: jdbc:mysql://localhost:3306/banking
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      username: root
+      password: 
+    jpa:
+        hibernate:
+          ddl-auto: update
+        database: mysql
+        database-platform: org.hibernate.dialect.MySQL5Dialect
+
